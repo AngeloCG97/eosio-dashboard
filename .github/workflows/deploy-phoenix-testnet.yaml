@@ -111,6 +111,7 @@ jobs:
           HAPI_REWARDS_TOKEN: phoenix
           HAPI_CREATE_ACCOUNT_ACTION_NAME: newaccount
           HAPI_EOS_FAUCET_ACCOUNT: ${{ secrets.HAPI_EOS_FAUCET_ACCOUNT }}
+          HAPI_EOS_GET_FAUCET_ACCOUNT: ${{ secrets.HAPI_EOS_GET_FAUCET_ACCOUNT }}
           # hasura
           HASURA_GRAPHQL_ENABLE_CONSOLE: 'true'
           HASURA_GRAPHQL_DATABASE_URL: ${{ secrets.HASURA_GRAPHQL_DATABASE_URL }}
